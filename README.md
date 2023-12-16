@@ -173,7 +173,7 @@
 
 1. Brand
    - url : `/admin/api/v1/brand`
-   - 셍성: POST 
+   - 생성: POST 
      ```json
       {
          "name": "K1"
@@ -195,7 +195,7 @@
 
 2. BrandItem
     - url : `/admin/api/v1/brandItem`
-    - 셍성: POST
+    - 생성: POST
       ```json
        {
           "category": "TOP",
@@ -229,7 +229,7 @@
 
 ### entity 구현
 
-- Brand와 BrnadItem은 1:N 양방향 연관관계
+- Brand와 BrandItem 1:N 양방향 연관관계
 - 삭제는 `soft delete`로 구현
 
 ### GlobalExceptionHandler
